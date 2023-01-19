@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "resusable-components": {
+    "reusable-components": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/resusable-components",
+            "outputPath": "dist/reusable-components",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "resusable-components:build:production"
+              "browserTarget": "reusable-components:build:production"
             },
             "development": {
-              "browserTarget": "resusable-components:build:development"
+              "browserTarget": "reusable-components:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "resusable-components:build"
+            "browserTarget": "reusable-components:build"
           }
         },
         "test": {
